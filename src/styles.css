@@ -1,0 +1,57 @@
+@import url(./reset.css);
+.content {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content__box-content {
+  background-color: #EEEEEE;
+  height: 90vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content__box-content--label {
+  margin: 30px 0px 10px 0px;
+}
+
+.content__input-jumpNumbers {
+  width: 20%;
+}
+
+.content__input-message {
+  width: 80%;
+  height: 10%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content__output {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+}
+/*# sourceMappingURL=styles.css.map */

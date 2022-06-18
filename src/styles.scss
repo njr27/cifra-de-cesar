@@ -1,0 +1,43 @@
+@import url(./reset.css);
+
+.content{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    &__box-content{
+        background-color: #EEEEEE;
+        height: 90vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &--label{
+            margin: 30px 0px 10px 0px;
+            
+        }
+    }
+
+    &__input-jumpNumbers{
+        width: 20%;
+    }
+
+    &__input-message{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__output{
+        width: 80%;
+        height: 40%;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+}
